@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Charles-Bussiness-Consulting</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <header class="header">
+        <section class="head1">
+          <div class="logo">
+            <img class="logo-image" src="images/CharlesLogo.png" alt="" />
+          </div>
+          <div class="address-wrapper float-right">
+            <div class="address-container">
+              <img src="images/location.svg" alt="location" />
+              <div class="address">
+                <h6>Address:</h6>
+                <p>2A0, Queenstown St, USA.</p>
+              </div>
+            </div>
+            <div class="head-liner"></div>
+            <div class="mail-container">
+              <img src="images/mail1.png" alt="" />
+
+              <div class="mail">
+                <h6>Mail us:</h6>
+                <p>supporthere@mail.com</p>
+              </div>
+            </div>
+            <div class="head-btn">
+              <button>GET A QUOTES</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="head2">
+          <nav class="nav-container">
+             <div class="hamburger" onclick="toggleMenu()">☰</div>
+            <div class="menu-container">
+              <ul class="menu">
+                <li class="menulist">
+                  HOME
+                  <span class="drop"><img src="images/drop.svg" alt="" /></span>
+                </li>
+                <li class="menu-line">/</li>
+                <li class="menulist">
+                  PAGES
+                  <span class="drop"><img src="images/drop.svg" alt="" /></span>
+                </li>
+                <li class="menu-line">/</li>
+                <li class="menulist">
+                  SERVICE
+                  <span class="drop"><img src="images/drop.svg" alt="" /></span>
+                </li>
+                <li class="menu-line">/</li>
+                <li class="menulist">
+                  PORTFOLIO
+                  <span class="drop"><img src="images/drop.svg" alt="" /></span>
+                </li>
+                <li class="menu-line">/</li>
+                <li class="menulist">
+                  BLOG
+                  <span class="drop"><img src="images/drop.svg" alt="" /></span>
+                </li>
+                <li class="menu-line">/</li>
+                <li class="menulist">
+                  CONTACT
+                  <span class="drop"><img src="images/drop.svg" alt="" /></span>
+                </li>
+              </ul>
+            </div>
+
+            <div class="social-container">
+              <div class="social">
+                <ul class="socialList">
+                  <li>
+                    <img
+                      class="social-image"
+                      src="images/facebook.svg"
+                      alt=""
+                    />
+                  </li>
+                  <li>
+                    <img class="social-image" src="images/twitter.svg" alt="" />
+                  </li>
+                  <li>
+                    <img
+                      class="social-image"
+                      src="images/linkedin.svg"
+                      alt=""
+                    />
+                  </li>
+                  <li>
+                    <img
+                      class="social-image"
+                      src="images/pinterest.svg"
+                      alt=""
+                    />
+                  </li>
+                </ul>
+              </div>
+
+              <div class="social-line"></div>
+
+              <div class="cart">
+                <ul class="cartList">
+                  <li>
+                    <img
+                      class="social-image"
+                      src="images/shopping-cart.svg"
+                      alt=""
+                    />
+                  </li>
+                  <div class="social-line"></div>
+                  <li>
+                    <img class="social-image" src="images/search.svg" alt="" />
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </section>
+      </header>
+
+      <main>
+        <section>
+          <div class="bg">
+            <img class="bg-image" src="images/bg.jpg" alt="" />
+            <span class="image-text">
+              <p>The government they survive artical of fortune</p>
+              <h2>
+                 We IMPROVE YOUR SALES EFFICIENCY
+              </h2>
+             <button class="image-btn">CONTACT US</button>
+            </span>
+          </div>
+        </section>
+
+        
+      </main>
+    </div>
+
+    <script>
+      function toggleMenu() {
+  const menu = document.querySelector(".menu-container");
+  menu.classList.toggle("active");
+}
+
+    </script>
+  </body>
+</html>
